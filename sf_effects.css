@@ -21,8 +21,20 @@ body {
 
 /* Navigation Tabs List Styles */
 
+body > header nav.tabs {
+    background-image: url(sf_back1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
+body > header nav.tabs li {
+    transform: perspective(50px) rotateX(40deg);
+}
 
+body > header nav.tabs li:hover {
+    background-color: rgb(231, 231, 231);
+}
 
 /* Left Section Styles */
 
